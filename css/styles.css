@@ -280,7 +280,12 @@ width: 264px;
 .team-social-list {
     fill: #F4F4FD;
 }
-
+.list-social-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 8px;
+}
 .card{
     display: block;
     padding: 32px 0;
@@ -426,23 +431,20 @@ overflow: hidden;
     height: 100%;
     }
     
-    .footer-icon-link{
-    width: 100%;
-      height: 100%;
-      border-radius: 50%;  
-    }
+   
 .footer-icon:hover {
 background-color: #31D0AA; }
 
 .footer-icon-link {
     display: flex;
+    border-radius: 50%;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
         background-color: #4D5AE5;
-        width: 100%;
+        width:100%;
         height: 100%;
-        column-gap: 24px;
+        column-gap: 16px;
 }
    .footer-icon-list{
     width: 40px;
