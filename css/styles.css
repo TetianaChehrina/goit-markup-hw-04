@@ -493,4 +493,5 @@ background-color: #31d0aa;}
    .footer-container-social{
     width: 235px;
         height: 96px;
+        align-items: baseline;
    }
