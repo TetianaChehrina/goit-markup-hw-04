@@ -143,7 +143,7 @@ color:#2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -309,6 +309,7 @@ width: 264px;
     gap: 24px;
     justify-content: center;
     align-items: center;
+    padding-left: 0px;
     margin-top: 8px;
 }
 .card{
@@ -418,6 +419,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    align-items: baseline;
 }
 
 .footer-social-media{
@@ -460,7 +462,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     .footer-icon{
         fill: #F4F4FD;
     }
-    
    
 .footer-icon-link:hover,
 .footer-icon-link:focus {
@@ -488,7 +489,6 @@ background-color: #31d0aa;}
    }
    .footer-container{
     margin-right: 120px;
-    align-items: baseline;
    }
    .footer-container-social{
     width: 235px;
